@@ -5,9 +5,9 @@
 </picture>
 
 <p align="center">
-  <a href="#about">关于</a> &nbsp; / &nbsp;
-  <a href="#projects">作品</a> &nbsp; / &nbsp;
-  <a href="#toolkit">技术</a> &nbsp; / &nbsp;
+  <a href="#user-content-about">关于</a> &nbsp; / &nbsp;
+  <a href="#user-content-projects">作品</a> &nbsp; / &nbsp;
+  <a href="#user-content-toolkit">技术</a> &nbsp; / &nbsp;
   <a href="https://github.com/datongyi?tab=repositories">仓库 ↗</a>
 </p>
 
