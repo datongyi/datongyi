@@ -5,9 +5,24 @@
 </picture>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=22&amp;pause=1200&amp;color=78DEC6&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=55&amp;lines=Hello%2C+I%27m+datongyi.;Mini+Programs.+HarmonyOS.+CloudBase.;Learning+by+building.+One+commit+at+a+time." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=22&amp;pause=1200&amp;color=267F6E&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=55&amp;lines=Hello%2C+I%27m+datongyi.;Mini+Programs.+HarmonyOS.+CloudBase.;Learning+by+building.+One+commit+at+a+time." width="90%" alt="Hello, I'm datongyi. Mini Programs. HarmonyOS. CloudBase. Learning by building." />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/datongyi"><img src="https://img.shields.io/badge/Developer-datongyi-267f6e?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Developer: datongyi" /></a>
+  <a href="https://github.com/datongyi?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fdatongyi&amp;query=%24.public_repos&amp;label=Repositories&amp;style=flat-square&amp;color=317c99" alt="Public repositories" /></a>
+  <a href="https://github.com/datongyi?tab=followers"><img src="https://img.shields.io/github/followers/datongyi?style=flat-square&amp;label=Followers&amp;color=267f6e" alt="GitHub followers" /></a>
+  <a href="https://github.com/datongyi?tab=repositories"><img src="https://img.shields.io/github/stars/datongyi?affiliations=OWNER&amp;style=flat-square&amp;label=Stars&amp;color=a67934" alt="Stars on owned repositories" /></a>
+  <img src="https://komarev.com/ghpvc/?username=datongyi&amp;label=Profile+views&amp;color=267f6e&amp;style=flat-square" alt="Profile view counter" />
+</p>
+
+<p align="center">
   <a href="#user-content-about">关于</a> &nbsp; / &nbsp;
   <a href="#user-content-projects">作品</a> &nbsp; / &nbsp;
-  <a href="#user-content-toolkit">技术</a> &nbsp; / &nbsp;
+  <a href="#user-content-activity">动态</a> &nbsp; / &nbsp;
   <a href="https://github.com/datongyi?tab=repositories">仓库 ↗</a>
 </p>
 
@@ -20,6 +35,44 @@
 我把学习过程写进代码，也把实现思路和遇到的问题留在项目文档里。希望每完成一个小作品，就多理解一点它背后的原理。
 
 *Learning by building — mini programs, mobile apps, and small experiments.*
+
+## 🧰 技术足迹 · Toolkit
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,nodejs,git,github,md&amp;theme=dark" />
+      <img src="https://skillicons.dev/icons?i=js,nodejs,git,github,md&amp;theme=light" alt="JavaScript, Node.js, Git, GitHub, Markdown" height="48" />
+    </picture>
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/WeChat-WXML%20%2F%20WXSS-267f6e?style=for-the-badge&amp;logo=wechat&amp;logoColor=white" alt="WeChat mini programs: WXML and WXSS" />
+  <img src="https://img.shields.io/badge/HarmonyOS-ArkTS%20%2F%20ArkUI-183b44?style=for-the-badge" alt="HarmonyOS: ArkTS and ArkUI" />
+  <img src="https://img.shields.io/badge/CloudBase-Cloud%20Development-317c99?style=for-the-badge" alt="WeChat CloudBase cloud development" />
+</p>
+
+**页面与交互** · 数据绑定、页面状态、Canvas 绘制与触摸交互。<br />
+**逻辑与数据** · 游戏规则、表达式解析、本地存储与云端图片服务。<br />
+**工程实践** · Git 版本管理、Markdown 文档、Node.js 与 Hypium 测试。
+
+## 📊 GitHub 一览 · By the numbers
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <img src="./profile-summary-card-output/default/0-profile-details.svg" width="100%" alt="datongyi 的 GitHub 公开贡献统计与年度活动图" />
+</picture>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" />
+    <img src="./profile-summary-card-output/default/3-stats.svg" width="390" alt="GitHub 星标、提交、PR、Issue 与贡献仓库统计" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+    <img src="./profile-summary-card-output/default/1-repos-per-language.svg" width="390" alt="公开仓库使用的编程语言分布" />
+  </picture>
+</p>
 
 <a id="projects"></a>
 
@@ -78,17 +131,29 @@
 
 </details>
 
-<a id="toolkit"></a>
+<a id="activity"></a>
 
-## 技术足迹 · Toolkit
+## 🐍 让贡献动起来 · Contribution snake
 
-在这些项目中实际用到的语言、平台与工具：
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/github-snake-dark.svg" />
+  <img src="./assets/contributions/github-snake.svg" width="100%" alt="根据 datongyi 的真实 GitHub 贡献日历生成的贪吃蛇动画" />
+</picture>
 
-**页面与交互** &nbsp; `JavaScript` `WXML` `WXSS` `Canvas`<br />
-**鸿蒙应用** &nbsp; `ArkTS` `ArkUI` `HarmonyOS`<br />
-**数据与工程** &nbsp; `微信云开发` `Node.js 测试` `Git` `Markdown`
+## 🌏 代码的另一种地形 · 3D contributions
 
-从界面、状态和本地存储出发，继续探索计算逻辑、自动化测试与云端协作。
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="datongyi 的 GitHub 年度贡献 3D 日历" />
+</picture>
+
+## ⚡ 最近在做什么 · Recent activity
+
+<a href="https://github.com/datongyi?tab=overview">
+  <img src="./assets/recent-activity.svg" width="100%" alt="datongyi 最近的公开 GitHub 活动，卡片内标明事件日期及更新时间" />
+</a>
+
+<p align="center"><sub>统计与贡献图每日更新 · 访客计数从启用时开始累计</sub></p>
 
 ---
 
