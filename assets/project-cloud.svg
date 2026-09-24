@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="208" viewBox="0 0 960 208" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">03 / 云端图片社区</title>
+  <desc id="desc">薄荷绿项目封面，右侧为照片连接云端的原创概念插画，非运行截图。</desc>
+  <rect x=".5" y=".5" width="959" height="207" rx="18" fill="#E4F1EB" stroke="#BFD7CB"/>
+  <path d="M32 37H53" stroke="#267F6E" stroke-width="3"/>
+  <text x="64" y="43" fill="#527B70" font-family="Consolas,monospace" font-size="14" letter-spacing="2">03 / CONNECTED EXPERIENCES</text>
+  <text x="32" y="115" fill="#183B44" font-family="Microsoft YaHei,PingFang SC,Segoe UI,sans-serif" font-size="44" font-weight="700">云端图片社区</text>
+  <text x="34" y="163" fill="#267F6E" font-family="Segoe UI,sans-serif" font-size="21">From device to cloud · WeChat CloudBase</text>
+  <g transform="translate(707 25)">
+    <path d="M87 63H152C174 63 177 33 156 29C150 2 113 1 104 25C86 20 76 38 81 49" fill="#FAFCF8" stroke="#75A592" stroke-width="2"/>
+    <path d="M124 100V69M117 76L124 69L131 76" stroke="#267F6E" stroke-width="2" stroke-dasharray="4 4"/>
+    <rect x="12" y="70" width="76" height="70" rx="9" transform="rotate(-9 12 70)" fill="#BAD9C8"/>
+    <rect x="32" y="76" width="88" height="72" rx="9" fill="#FAFCF8" stroke="#75A592" stroke-width="2"/>
+    <rect x="42" y="86" width="68" height="52" rx="5" fill="#D5E8DD"/>
+    <circle cx="92" cy="99" r="6" fill="#E3BB75"/>
+    <path d="M42 131L61 109L78 123L88 115L110 138H42Z" fill="#679C86"/>
+    <circle cx="158" cy="123" r="15" fill="#267F6E"/>
+    <path d="M151 123L156 128L165 118" stroke="#FAFCF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M919 28H932V41M932 28L915 45" stroke="#267F6E" stroke-width="2"/>
+</svg>

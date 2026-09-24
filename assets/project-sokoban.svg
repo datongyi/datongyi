@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="208" viewBox="0 0 960 208" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">01 / 推箱子</title>
+  <desc id="desc">深海蓝项目封面，右侧用几何方格、箱子和目标点表现推箱子玩法。原创概念插画，非运行截图。</desc>
+  <rect x=".5" y=".5" width="959" height="207" rx="18" fill="#102F3C" stroke="#29505C"/>
+  <path d="M32 37H53" stroke="#78DEC6" stroke-width="3"/>
+  <text x="64" y="43" fill="#9DBDC4" font-family="Consolas,monospace" font-size="14" letter-spacing="2">01 / INTERACTIVE PLAY</text>
+  <text x="32" y="115" fill="#F6F2E7" font-family="Microsoft YaHei,PingFang SC,Segoe UI,sans-serif" font-size="44" font-weight="700">推箱子</text>
+  <text x="34" y="163" fill="#78DEC6" font-family="Segoe UI,sans-serif" font-size="21">Canvas puzzle game · 60 levels</text>
+  <g transform="translate(727 30)">
+    <rect width="158" height="148" rx="12" fill="#173E49"/>
+    <path d="M12 48H146M12 98H146M52 10V138M104 10V138" stroke="#2C5560" stroke-width="2"/>
+    <rect x="8" y="7" width="39" height="35" rx="5" fill="#345763"/>
+    <rect x="111" y="106" width="39" height="35" rx="5" fill="#345763"/>
+    <rect x="59" y="55" width="39" height="35" rx="5" fill="#E7C98F"/>
+    <path d="M65 61L92 84M92 61L65 84" stroke="#937943" stroke-width="2"/>
+    <circle cx="78" cy="122" r="10" stroke="#78DEC6" stroke-width="2" stroke-dasharray="3 3"/>
+    <circle cx="130" cy="73" r="12" fill="#78DEC6"/>
+    <path d="M126 73H134M130 69V77" stroke="#102F3C" stroke-width="2"/>
+  </g>
+  <path d="M919 28H932V41M932 28L915 45" stroke="#78DEC6" stroke-width="2"/>
+</svg>

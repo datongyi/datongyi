@@ -1,0 +1,8 @@
+# Local previews, research, and delivery notes are not part of the public profile.
+/preview.html
+/preview/
+/notes/
+/交付说明.md
+__pycache__/
+.DS_Store
+Thumbs.db

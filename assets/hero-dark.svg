@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">datongyi — Build. Learn. Iterate.</title>
+  <desc id="desc">深海蓝背景上的 datongyi 个人主页横幅。右侧以薄荷绿色的海洋等高线、航线和星点，表达探索与创造。在实践中探索，把想法写成作品。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2232"/>
+      <stop offset="1" stop-color="#102F3C"/>
+    </linearGradient>
+    <linearGradient id="ocean" x1="803" y1="96" x2="1090" y2="369" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78DEC6" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#78DEC6" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="route" x1="767" y1="301" x2="1100" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78DEC6" stop-opacity=".18"/>
+      <stop offset=".5" stop-color="#78DEC6"/>
+      <stop offset="1" stop-color="#F0DBA6"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="440" rx="24"/></clipPath>
+    <clipPath id="sea"><circle cx="959" cy="218" r="144"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="440" rx="24" fill="url(#background)"/>
+    <rect x=".5" y=".5" width="1199" height="439" rx="23.5" stroke="#78DEC6" stroke-opacity=".13"/>
+    <path d="M712 0V440" stroke="#78DEC6" stroke-opacity=".07"/>
+    <path d="M0 400H1200" stroke="#78DEC6" stroke-opacity=".08"/>
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+      <path d="M68 69L75 76L68 83M84 83H96" stroke="#78DEC6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="112" y="82" fill="#97B6BF" font-size="14" letter-spacing="2.1">A PERSONAL SPACE FOR IDEAS</text>
+    </g>
+    <text x="62" y="223" fill="#F6F2E7" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="108" font-weight="700" letter-spacing="-6">datongyi<tspan fill="#78DEC6">.</tspan></text>
+    <text x="68" y="275" fill="#B5C9CE" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" letter-spacing="1">在实践中探索，把想法写成作品。</text>
+    <path d="M68 348H99" stroke="#78DEC6" stroke-width="2"/>
+    <text x="115" y="353" fill="#78DEC6" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="2">BUILD. LEARN. ITERATE.</text>
+    <g>
+      <circle cx="959" cy="218" r="173" stroke="#78DEC6" stroke-opacity=".17"/>
+      <circle cx="959" cy="218" r="157" stroke="#78DEC6" stroke-opacity=".15" stroke-dasharray="2 10"/>
+      <circle cx="959" cy="218" r="144" fill="url(#ocean)" stroke="#78DEC6" stroke-opacity=".28"/>
+      <path d="M959 31V49M959 387V405M772 218H790M1128 218H1146" stroke="#B7D3D7" stroke-opacity=".6"/>
+      <path d="M827 86L838 97M1080 339L1091 350M827 350L838 339M1080 97L1091 86" stroke="#78DEC6" stroke-opacity=".2"/>
+      <g clip-path="url(#sea)" stroke="#78DEC6" stroke-width="1.15">
+        <path d="M787 176C858 115 911 108 954 153S1038 199 1136 112" stroke-opacity=".20"/>
+        <path d="M783 197C856 132 910 128 956 170S1048 217 1138 133" stroke-opacity=".29"/>
+        <path d="M783 219C850 152 911 149 958 187S1056 235 1140 153" stroke-opacity=".39"/>
+        <path d="M783 241C845 174 911 170 960 204S1059 256 1136 177" stroke-opacity=".55"/>
+        <path d="M783 264C845 195 909 192 962 222S1064 278 1138 199" stroke-opacity=".72"/>
+        <path d="M783 287C843 217 908 213 964 240S1067 299 1136 223" stroke-opacity=".55"/>
+        <path d="M783 310C842 240 907 235 966 258S1075 319 1138 246" stroke-opacity=".39"/>
+        <path d="M783 334C839 263 908 257 968 277S1076 342 1138 271" stroke-opacity=".29"/>
+        <path d="M783 357C839 286 908 280 970 296S1080 362 1138 294" stroke-opacity=".20"/>
+        <path d="M886 58C846 145 905 184 890 240S874 339 928 385M1033 57C995 132 1057 200 1038 255S1016 342 1062 382" stroke-opacity=".1"/>
+      </g>
+      <path d="M788 312C843 313 878 294 921 257C971 214 1013 171 1081 138" stroke="url(#route)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="858" cy="296" r="4" fill="#78DEC6"/>
+      <circle cx="858" cy="296" r="10" stroke="#78DEC6" stroke-opacity=".27"/>
+      <path d="M1077 139L1094 132L1087 149L1084 142L1077 139Z" fill="#F0DBA6"/>
+      <circle cx="959" cy="218" r="3" fill="#F6F2E7"/>
+      <path d="M949 218H969M959 208V228" stroke="#F6F2E7" stroke-opacity=".4"/>
+      <circle cx="1132" cy="93" r="2" fill="#78DEC6" fill-opacity=".7"/>
+      <circle cx="795" cy="121" r="2" fill="#F0DBA6" fill-opacity=".8"/>
+      <circle cx="1105" cy="362" r="2" fill="#78DEC6" fill-opacity=".5"/>
+    </g>
+    <text x="68" y="425" fill="#6B909C" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5">KEEP EXPLORING</text>
+    <text x="1132" y="425" fill="#6B909C" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5" text-anchor="end">IDEA → CODE → POSSIBILITY</text>
+  </g>
+</svg>

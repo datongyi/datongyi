@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="208" viewBox="0 0 960 208" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">02 / HarmonyOS 计算器</title>
+  <desc id="desc">米白项目封面，右侧为原创计算器与数学符号概念插画，非运行截图。</desc>
+  <rect x=".5" y=".5" width="959" height="207" rx="18" fill="#F5F0E4" stroke="#DFD5BF"/>
+  <path d="M32 37H53" stroke="#A67934" stroke-width="3"/>
+  <text x="64" y="43" fill="#786F5B" font-family="Consolas,monospace" font-size="14" letter-spacing="2">02 / NATIVE MOBILE</text>
+  <text x="32" y="115" fill="#183B44" font-family="Segoe UI,Microsoft YaHei,PingFang SC,sans-serif" font-size="42" font-weight="700">HarmonyOS 计算器</text>
+  <text x="34" y="163" fill="#786039" font-family="Segoe UI,sans-serif" font-size="21">More than arithmetic · ArkTS + ArkUI</text>
+  <g transform="translate(755 25)">
+    <rect width="112" height="158" rx="14" fill="#183B44"/>
+    <rect x="12" y="12" width="88" height="36" rx="6" fill="#D9E9DD"/>
+    <text x="90" y="38" text-anchor="end" fill="#183B44" font-family="Consolas,monospace" font-size="23">2 + 3</text>
+    <g fill="#36525A"><rect x="12" y="59" width="23" height="21" rx="5"/><rect x="44" y="59" width="23" height="21" rx="5"/><rect x="12" y="89" width="23" height="21" rx="5"/><rect x="44" y="89" width="23" height="21" rx="5"/><rect x="12" y="119" width="23" height="21" rx="5"/><rect x="44" y="119" width="23" height="21" rx="5"/></g>
+    <rect x="77" y="59" width="23" height="21" rx="5" fill="#92C5B4"/>
+    <rect x="77" y="89" width="23" height="51" rx="5" fill="#E7C98F"/>
+    <path d="M84 111H93M84 117H93" stroke="#183B44" stroke-width="2"/>
+  </g>
+  <text x="711" y="84" fill="#B7A681" font-family="Georgia,serif" font-size="26">π</text>
+  <text x="878" y="154" fill="#B7A681" font-family="Georgia,serif" font-size="30">ƒ</text>
+  <path d="M919 28H932V41M932 28L915 45" stroke="#A67934" stroke-width="2"/>
+</svg>
