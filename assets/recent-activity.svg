@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="256" viewBox="0 0 900 256" role="img" aria-labelledby="title desc">
+<title id="title">Recent public activity for datongyi</title>
+<desc id="desc">Public GitHub events, newest first, excluding the profile repository. Dates are UTC.</desc>
+<rect x="0.5" y="0.5" width="899" height="255" rx="18" fill="#102F3C" stroke="#29505C"/>
+<g font-family="Segoe UI,Microsoft YaHei,PingFang SC,sans-serif">
+<text x="28" y="35" fill="#78DEC6" font-size="22" font-weight="600">Recent activity · 最近公开动态</text>
+<text x="28" y="57" fill="#9DBDC4" font-size="13">Small steps, visible progress.</text>
+<circle cx="33" cy="83" r="3" fill="#78DEC6"/>
+<text x="48" y="88" fill="#F6F2E7" font-size="16">Pushed to datongyi/Mobile-Software-Development</text>
+<text x="666" y="88" fill="#9DBDC4" font-size="13" text-anchor="end">556f5aa</text>
+<text x="868" y="88" fill="#9DBDC4" font-size="14" text-anchor="end">2026-09-20 11:51</text>
+<circle cx="33" cy="113" r="3" fill="#78DEC6"/>
+<text x="48" y="118" fill="#F6F2E7" font-size="16">Pushed to datongyi/Mobile-Software-Development</text>
+<text x="666" y="118" fill="#9DBDC4" font-size="13" text-anchor="end">b2a0cfd</text>
+<text x="868" y="118" fill="#9DBDC4" font-size="14" text-anchor="end">2026-09-20 11:32</text>
+<circle cx="33" cy="143" r="3" fill="#78DEC6"/>
+<text x="48" y="148" fill="#F6F2E7" font-size="16">Starred datongyi/photos</text>
+<text x="666" y="148" fill="#9DBDC4" font-size="13" text-anchor="end"></text>
+<text x="868" y="148" fill="#9DBDC4" font-size="14" text-anchor="end">2026-09-10 16:31</text>
+<circle cx="33" cy="173" r="3" fill="#78DEC6"/>
+<text x="48" y="178" fill="#F6F2E7" font-size="16">Starred datongyi/Mobile-Software-Development</text>
+<text x="666" y="178" fill="#9DBDC4" font-size="13" text-anchor="end"></text>
+<text x="868" y="178" fill="#9DBDC4" font-size="14" text-anchor="end">2026-09-10 16:31</text>
+<circle cx="33" cy="203" r="3" fill="#78DEC6"/>
+<text x="48" y="208" fill="#F6F2E7" font-size="16">Pushed to datongyi/Mobile-Software-Development</text>
+<text x="666" y="208" fill="#9DBDC4" font-size="13" text-anchor="end">0a47fef</text>
+<text x="868" y="208" fill="#9DBDC4" font-size="14" text-anchor="end">2026-09-08 18:55</text>
+<text x="28" y="240" fill="#9DBDC4" font-size="12">Latest 5 public events · UTC · Updated 2026-09-24</text>
+</g></svg>

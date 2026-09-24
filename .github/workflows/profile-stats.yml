@@ -1,0 +1,84 @@
+name: Update profile statistics
+
+on:
+  schedule:
+    - cron: '53 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f # release, 2026-08-06
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: datongyi
+          NAME: datongyi
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          EXCLUDE_REPOS: datongyi
+          AUTO_PUSH: false
+          THEME: ''
+          ANIMATION: ''
+
+      # The upstream action logs individual card failures without failing the job.
+      # Validate the cards used by the README before publishing any generated files.
+      - name: Validate cards and keep the two displayed themes
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import shutil
+          import xml.etree.ElementTree as ET
+
+          output = Path('profile-summary-card-output')
+          themes = ('default', 'github_dark')
+          required = ('0-profile-details.svg', '1-repos-per-language.svg', '3-stats.svg')
+          for theme in themes:
+              for filename in required:
+                  path = output / theme / filename
+                  root = ET.parse(path).getroot()
+                  if root.tag != '{http://www.w3.org/2000/svg}svg':
+                      raise ValueError(f'Expected SVG card: {path}')
+          for path in output.iterdir():
+              if path.is_dir() and path.name not in themes:
+                  shutil.rmtree(path)
+          # The upstream index lists all themes, including those removed above.
+          (output / 'README.md').unlink(missing_ok=True)
+          PY
+
+      - name: Generate recent public activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update-activity.py
+
+      - name: Commit only generated profile assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add -- profile-summary-card-output assets/recent-activity.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh profile statistics and activity'
+          export GIT_CONFIG_COUNT=1
+          export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
+          export GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          git push origin HEAD:main
