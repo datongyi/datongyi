@@ -88,7 +88,7 @@ I'm a developer learning at Ocean University of China, focusing on C++, Python, 
 
 <p align="center">
 <a href="https://github.com/datongyi/Mobile-Software-Development/tree/main/夏日有迹">
-  <img src="./assets/summer-traces-preview.jpg" width="320" alt="夏日有迹微信小程序首页预览" />
+  <img src="./assets/summer-traces-preview.jpg" height="345" alt="夏日有迹微信小程序首页预览" />
 </a>
 </p>
 
