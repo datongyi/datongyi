@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">datongyi — Build. Learn. Iterate.</title>
-  <desc id="desc">温暖米白背景上的 datongyi 个人主页横幅。右侧以海绿色的海洋等高线、航线和星点，表达探索与创造。在实践中探索，把想法写成作品。</desc>
+  <title id="title">Olivia — Thus said Olivia.</title>
+  <desc id="desc">Olivia 的个人主页横幅。右侧以海绿色的海洋等高线、航线和星点，表达探索与创造。周旋久宁作我。</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FAF8F1"/>
@@ -27,10 +27,10 @@
       <path d="M68 69L75 76L68 83M84 83H96" stroke="#267F6E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="112" y="82" fill="#637D7D" font-size="14" letter-spacing="2.1">A PERSONAL SPACE FOR IDEAS</text>
     </g>
-    <text x="62" y="223" fill="#102F3C" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="108" font-weight="700" letter-spacing="-6">datongyi<tspan fill="#267F6E">.</tspan></text>
-    <text x="68" y="275" fill="#536E75" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" letter-spacing="1">在实践中探索，把想法写成作品。</text>
+    <text x="62" y="223" fill="#102F3C" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="108" font-weight="700">Olivia<tspan fill="#267F6E">.</tspan></text>
+    <text x="68" y="275" fill="#536E75" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" letter-spacing="1">周旋久宁作我。</text>
     <path d="M68 348H99" stroke="#267F6E" stroke-width="2"/>
-    <text x="115" y="353" fill="#267F6E" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="2">BUILD. LEARN. ITERATE.</text>
+    <text x="115" y="353" fill="#267F6E" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="2">THUS SAID OLIVIA.</text>
     <g>
       <circle cx="959" cy="218" r="173" stroke="#267F6E" stroke-opacity=".23"/>
       <circle cx="959" cy="218" r="157" stroke="#267F6E" stroke-opacity=".2" stroke-dasharray="2 10"/>
