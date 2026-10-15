@@ -66,8 +66,6 @@ def fetch_rows():
         events = json.load(response)
     rows = [row for event in events if (row := activity_row(event)) is not None]
     rows.sort(key=lambda row: row[2], reverse=True)
-    if not rows:
-        raise RuntimeError("No supported public activity outside the profile repository was returned")
     return rows[:5]
 
 
@@ -77,7 +75,7 @@ def fit(text, length):
 
 def render(rows):
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    height = 106 + 30 * len(rows)
+    height = 106 + 30 * max(1, len(rows))
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" '
         f'viewBox="0 0 900 {height}" role="img" aria-labelledby="title desc">',
@@ -88,6 +86,8 @@ def render(rows):
         '<text x="28" y="35" fill="#78DEC6" font-size="22" font-weight="600">Recent activity · 最近公开动态</text>',
         '<text x="28" y="57" fill="#9DBDC4" font-size="13">Small steps, visible progress.</text>',
     ]
+    if not rows:
+        parts.append('<text x="28" y="88" fill="#F6F2E7" font-size="16">暂无近期公开活动 · No recent public activity</text>')
     for index, (title, detail, date) in enumerate(rows):
         y = 88 + 30 * index
         parts.extend(
