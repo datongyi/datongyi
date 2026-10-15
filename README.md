@@ -63,8 +63,6 @@ I'm a developer learning at Ocean University of China, focusing on C++, Python, 
 
 ## 📊 GitHub 一览 · By the numbers
 
-贡献及语言统计支持纳入已授权的私密仓库，需配置统计令牌后生效；仓库徽章、星标和 Contributed to 仍为公开数据。最近活动只展示公开事件。
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
   <img src="./profile-summary-card-output/default/0-profile-details.svg" width="100%" alt="Olivia 的 GitHub 贡献统计与年度活动图" />
@@ -83,21 +81,21 @@ I'm a developer learning at Ocean University of China, focusing on C++, Python, 
 
 <a id="activity"></a>
 
-## 🐍 让贡献动起来 · Contribution snake
+## 🐍 Contribution snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/github-snake-dark.svg" />
   <img src="./assets/contributions/github-snake.svg" width="100%" alt="根据 Olivia 的 GitHub 贡献日历生成的贪吃蛇动画" />
 </picture>
 
-## 🌏 代码的另一种地形 · 3D contributions
+## 🌏 3D contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
   <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Olivia 的 GitHub 年度贡献 3D 日历" />
 </picture>
 
-## ⚡ 最近在做什么 · Recent activity
+## ⚡ Recent activity
 
 <a href="https://github.com/datongyi?tab=overview">
   <img src="./assets/recent-activity.svg" width="100%" alt="Olivia 最近的公开 GitHub 活动，卡片内标明事件日期及更新时间" />
