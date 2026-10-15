@@ -21,7 +21,6 @@
 
 <p align="center">
   <a href="#user-content-about">关于</a> &nbsp; / &nbsp;
-  <a href="#user-content-projects">作品</a> &nbsp; / &nbsp;
   <a href="#user-content-activity">动态</a> &nbsp; / &nbsp;
   <a href="https://github.com/datongyi?tab=repositories">仓库 ↗</a>
 </p>
@@ -64,9 +63,11 @@ I'm a developer learning at Ocean University of China, focusing on C++, Python, 
 
 ## 📊 GitHub 一览 · By the numbers
 
+贡献及语言统计支持纳入已授权的私密仓库，需配置统计令牌后生效；仓库徽章、星标和 Contributed to 仍为公开数据。最近活动只展示公开事件。
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
-  <img src="./profile-summary-card-output/default/0-profile-details.svg" width="100%" alt="Olivia 的 GitHub 公开贡献统计与年度活动图" />
+  <img src="./profile-summary-card-output/default/0-profile-details.svg" width="100%" alt="Olivia 的 GitHub 贡献统计与年度活动图" />
 </picture>
 
 <p align="center">
@@ -76,27 +77,9 @@ I'm a developer learning at Ocean University of China, focusing on C++, Python, 
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
-    <img src="./profile-summary-card-output/default/1-repos-per-language.svg" width="390" alt="公开仓库使用的编程语言分布" />
+    <img src="./profile-summary-card-output/default/1-repos-per-language.svg" width="390" alt="已授权仓库使用的编程语言分布" />
   </picture>
 </p>
-
-<a id="projects"></a>
-
-## 精选作品 · Selected work
-
-目前展示 [《移动软件开发》课程仓库](https://github.com/datongyi/Mobile-Software-Development) 中的一个项目。
-
-<p align="center">
-<a href="https://github.com/datongyi/Mobile-Software-Development/tree/main/夏日有迹">
-  <img src="./assets/summer-traces-preview.jpg" height="345" alt="夏日有迹微信小程序首页预览" />
-</a>
-</p>
-
-**夏日有迹** · 一个记录夏日体验的微信小程序，围绕记录、回顾与 AI 辅助功能展开。
-
-`微信小程序` `WXML/WXSS` `JavaScript` `Agent 工作流`
-
-[查看源码与运行说明 →](https://github.com/datongyi/Mobile-Software-Development/tree/main/夏日有迹)
 
 <a id="activity"></a>
 
@@ -127,7 +110,4 @@ I'm a developer learning at Ocean University of China, focusing on C++, Python, 
 <p align="center">
   <b>周旋久宁作我。</b><br />
   <sub>Thus said Olivia.</sub>
-</p>
-<p align="center">
-  <a href="https://github.com/datongyi/Mobile-Software-Development/tree/main/夏日有迹">探索夏日有迹 ↗</a>
 </p>

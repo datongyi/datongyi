@@ -26,10 +26,10 @@ jobs:
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f # release, 2026-08-06
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: datongyi
-          NAME: datongyi
+          NAME: Olivia
           BRANCH_NAME: main
           UTC_OFFSET: 8
           EXCLUDE_REPOS: datongyi

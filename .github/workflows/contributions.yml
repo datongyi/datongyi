@@ -25,7 +25,7 @@ jobs:
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: datongyi
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           outputs: |
             assets/contributions/github-snake.svg?color_snake=#A67934&color_dots=#EDF1EA,#CDECE0,#88D7BD,#4BA58E,#267F6E
             assets/contributions/github-snake-dark.svg?palette=github-dark&color_snake=#F0DBA6&color_dots=#1C3540,#244C50,#346F68,#4B9D8C,#78DEC6
@@ -33,7 +33,7 @@ jobs:
       - name: Generate the 3D contribution calendars
         uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           USERNAME: datongyi
 
       - name: Commit updated contribution art
